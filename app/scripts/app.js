@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('gitHubApp', [
+  .module('testApp', [
     'ngAnimate',
     'ngCookies',
     'ngMessages',

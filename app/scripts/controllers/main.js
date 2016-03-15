@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the gitHubApp
  */
-angular.module('gitHubApp')
+angular.module('testApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

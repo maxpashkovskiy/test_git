@@ -13,12 +13,24 @@ body {
 
 .reg_form{
   text-align: center;
-  background: red;
+  background: #BDB76B;
+  /* opacity: 0.7; */
 }
 .reg{
- top:10px;
+  margin: 5px;
+  /* padding: 10px; */
+  /* top:20px; */
   text-align: center;
-  font:16px Liana;
+  font:24px Liana;
+  border-radius: 30%;
+}
+.reg_but{
+  font:30px ToxicPowers;
+  text-align: center;
+  border-radius: 30%;
+}
+input:required:invalid{
+border:2px solid red;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
